@@ -407,3 +407,21 @@ body.page-home{--ink:#f8eef5;--muted:#d3bacb;--green:#ec8cb8;--green-dark:#a83e7
   .page-home .price-category-name strong{font-size:1rem}.page-home .price-range{font-size:.7rem}
   .page-home .price-content{padding:0 14px 18px}
 }
+
+/* Practice details and Nicole's portrait. */
+.page-home .trust-row{column-gap:clamp(24px,4vw,56px);align-items:stretch}
+.page-home .trust-item{display:flex;flex-direction:column;align-items:flex-start;min-width:0;padding:30px 0 34px;text-align:left}
+.page-home .trust-item h3{margin:0 0 14px;font:600 1.1rem/1.4 var(--sans);color:#faebf3}
+.page-home .trust-item p{margin:0 0 14px;font-size:.94rem;line-height:1.8;color:#d7bfcd;max-width:54ch}
+.page-home .highlight-link{display:inline-flex;gap:12px;align-items:center;margin-top:auto;padding-top:10px;color:#ffbcda;font-size:.81rem;font-weight:600;text-underline-offset:5px}
+.page-home .highlight-link:hover{color:#fff}
+.page-home #about .intro-grid{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(28px,4vw,64px);align-items:center}
+.page-home .nicole-portrait{margin:0;overflow:hidden;border-radius:3px;background:#eed5e0;box-shadow:0 18px 48px #50374618}
+.page-home .nicole-portrait img{width:100%;height:auto;aspect-ratio:3/4;object-fit:contain}
+.page-home .nicole-portrait figcaption{display:flex;flex-direction:column;gap:3px;padding:17px 20px;background:#fff7fa;color:#503746}
+.page-home .nicole-portrait figcaption strong{font:500 1.2rem var(--serif)}
+.page-home .nicole-portrait figcaption span{font-size:.73rem;color:#75656f}
+.page-home #about h2{font-size:clamp(2.3rem,3.5vw,3.8rem);line-height:1.12;margin-top:15px}
+.page-home #about .intro-copy{min-width:0}
+@media(max-width:1100px){.page-home #about .intro-grid{grid-template-columns:1fr}.page-home .nicole-portrait{width:100%;max-width:480px}.page-home #about .intro-copy{max-width:680px}}
+@media(max-width:600px){.page-home .trust-row{grid-template-columns:1fr}.page-home .trust-item{padding:25px 0 28px}.page-home .trust-item p{font-size:.92rem}}
