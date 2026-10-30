@@ -417,7 +417,7 @@ body.page-home{--ink:#f8eef5;--muted:#d3bacb;--green:#ec8cb8;--green-dark:#a83e7
 .page-home .highlight-link:hover{color:#fff}
 .page-home #about .intro-grid{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(28px,4vw,64px);align-items:center}
 .page-home .nicole-portrait{margin:0;overflow:hidden;border-radius:3px;background:#eed5e0;box-shadow:0 18px 48px #50374618}
-.page-home .nicole-portrait img{width:100%;height:auto;aspect-ratio:3/4;object-fit:contain}
+.page-home #about .nicole-portrait img{display:block;width:100%!important;max-width:100%;height:auto!important;min-height:0;max-height:none;aspect-ratio:auto;object-fit:contain;align-self:start;flex:none}
 .page-home .nicole-portrait figcaption{display:flex;flex-direction:column;gap:3px;padding:17px 20px;background:#fff7fa;color:#503746}
 .page-home .nicole-portrait figcaption strong{font:500 1.2rem var(--serif)}
 .page-home .nicole-portrait figcaption span{font-size:.73rem;color:#75656f}
